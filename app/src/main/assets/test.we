@@ -1,0 +1,18 @@
+<template>
+    <div>
+        <text onclick="handler">hello world</text>
+    </div>
+</template>
+<script>
+    module.exports = {
+        data: {  
+        },
+        methods: {
+            handler:function() {
+              require('@weex-module/testmodule').printLog("hello weex");
+            }
+        }
+    }
+</script>
+<style>
+</style>

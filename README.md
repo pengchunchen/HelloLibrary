@@ -1,2 +1,1 @@
-# HelloLibrary
-测试库
+# WXSample
